@@ -6,8 +6,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/d4l3k/go-bayesopt/gp"
-	"github.com/d4l3k/go-bayesopt/gp/plot"
+	"github.com/Team4pInfinite/go-bayesopt/gp"
+	"github.com/Team4pInfinite/go-bayesopt/gp/plot"
 )
 
 func TestPlot(t *testing.T) {

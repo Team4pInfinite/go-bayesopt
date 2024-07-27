@@ -7,7 +7,7 @@ import (
 
 	"gonum.org/v1/gonum/optimize"
 
-	"github.com/d4l3k/go-bayesopt/gp"
+	"github.com/Team4pInfinite/go-bayesopt/gp"
 )
 
 const (

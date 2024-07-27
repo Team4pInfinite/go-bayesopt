@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/d4l3k/go-bayesopt/gp/plot"
+	"github.com/Team4pInfinite/go-bayesopt/gp/plot"
 	"gonum.org/v1/gonum/floats"
 )
 

@@ -14,7 +14,7 @@ import (
 
 	"gonum.org/v1/gonum/floats"
 
-	"github.com/d4l3k/go-bayesopt/gp"
+	"github.com/Team4pInfinite/go-bayesopt/gp"
 )
 
 // SaveAll saves all dimension graphs of the gaussian process to a temp
