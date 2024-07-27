@@ -348,6 +348,7 @@ func (o *Optimizer) Optimize(f func(map[Param]float64) float64) (x map[Param]flo
 			o.Log(x, f(x))
 		}
 	}
+	wg.Wait()
 
 	o.mu.Lock()
 	o.mu.running = false
