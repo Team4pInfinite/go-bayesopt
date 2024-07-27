@@ -338,7 +338,7 @@ func (o *Optimizer) Optimize(f func(map[Param]float64) float64) (x map[Param]flo
 		}
 		if parallel {
 			wg.Add(1)
-			go func() {
+			func() {
 				defer wg.Done()
 
 				o.Log(x, f(x))
