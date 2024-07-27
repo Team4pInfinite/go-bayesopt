@@ -1,4 +1,4 @@
-module github.com/d4l3k/go-bayesopt
+module github.com/Team4pInfinite/go-bayesopt
 
 go 1.12
 
